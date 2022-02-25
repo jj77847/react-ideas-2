@@ -67,8 +67,8 @@ const hirelogo = {
 };
 const hiremebox = {
   width: "100%",
-  backgroundColor: "red",
-  color: "white",
+  backgroundColor: "white",
+  color: "black",
   boxShadow: " 3px 3px 4px 3px black",
 };
 const myimage = {
