@@ -132,17 +132,17 @@ class Project extends React.Component {
                     <Button variant="success">
                       <a
                         style={{ textDecoration: "none", color: "black" }}
-                        href="https://github.com/"
+                        href="https://www.flaticon.com/"
                       >
-                        Demo
+                        Links
                         <img
                           style={{
                             height: "25px",
                             marginLeft: "10px",
-                            borderRadius: "50%",
+                            borderRadius: "15%",
                           }}
-                          alt="codesandbox"
-                          src="https://pbs.twimg.com/profile_images/1171375829382774784/70ZgE-ke_400x400.png"
+                          alt="foreign"
+                          src="https://cdn-icons-png.flaticon.com/128/376/376007.png"
                         />
                       </a>
                     </Button>
@@ -187,17 +187,17 @@ class Project extends React.Component {
                     <Button variant="success">
                       <a
                         style={{ textDecoration: "none", color: "black" }}
-                        href="https://github.com/"
+                        href="https://www.flaticon.com/"
                       >
-                        Demo
+                        Links
                         <img
                           style={{
                             height: "25px",
                             marginLeft: "10px",
-                            borderRadius: "50%",
+                            borderRadius: "15%",
                           }}
-                          alt="codesandbox"
-                          src="https://pbs.twimg.com/profile_images/1171375829382774784/70ZgE-ke_400x400.png"
+                          alt="foreign"
+                          src="https://cdn-icons-png.flaticon.com/128/376/376007.png"
                         />
                       </a>
                     </Button>

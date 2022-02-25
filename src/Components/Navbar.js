@@ -62,15 +62,7 @@ class Navbars extends React.Component {
             <li className="items" onClick={this.certifications}>
               Certifications
             </li>
-             <li className="items" onClick={this.certifications}>
-              Certifications
-            </li>
-             <li className="items" onClick={this.certifications}>
-              Certifications
-            </li>
-             <li className="items" onClick={this.certifications}>
-              Certifications
-            </li>
+            
             <li className="items" onClick={this.workExperience}>
               Work Experience
             </li>

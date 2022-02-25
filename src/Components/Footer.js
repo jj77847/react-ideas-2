@@ -1,46 +1,32 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import instalogo from "../images/instalogo.png";
-import linkedinlogo from "../images/linkedinogo.png";
+import linkedin from "../images/linkedin.png";
 import gmail from "../images/gmail.png";
 import github from "../images/github.png";
-import snapchat from "../images/snapchat.png";
+import facebook from "../images/facebook.png";
+
 class Footer extends React.Component {
   render() {
     return (
       <div>
         <Container fluid style={footerstyle}>
           <Row>
-            <Col style={{ padding: "30px" }} xl={4} lg={5} sm={5} xs={12}>
-              <div
-                style={{
-                  fontSize: "20px",
-                  padding: "30px",
-                  border: "10px  double white"
-                }}
-              >
-                𝓐𝓷𝓶𝓸𝓵 𝓡𝓮𝓼𝓱𝓲
-              </div>
-            </Col>
-            <Col style={{ marginTop: "45px" }} xl={1} lg={2} sm={3} xs={12}>
-              Lets Connect
-            </Col>
             <Col style={{ marginTop: "45px" }} xl={1} lg={1} sm={4} xs={5}>
               <div className="socialmediaicons">
                 <ul className="listitems">
                   <li>
                     <a
-                      href="https://www.instagram.com/iamanmolreshi_20/"
+                      href="https://www.github.com/jj77847/"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <img style={icon} alt="instagram" src={instalogo} />
+                      <img style={icon} alt="Github" src={github} />
                     </a>
                   </li>
 
                   <li>
                     <a
-                      href="mailto:anmolreshi@gmail.com"
+                      href="mailto:jonathanjefferies1985@gmail.com"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -50,20 +36,20 @@ class Footer extends React.Component {
 
                   <li>
                     <a
-                      href="https://www.snapchat.com/"
+                      href="https://www.facebook.com/jajefferies/"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <img style={icon} alt="snapchat" src={snapchat} />
+                      <img style={icon} alt="snapchat" src={facebook} />
                     </a>
                   </li>
                   <li>
                     <a
-                      href="https://www.linkedin.com/in/anmolreshi/"
+                      href="https://www.linkedin.com/in/jonathan-jefferies-70916110b/"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <img style={icon} alt="linkedin" src={linkedinlogo} />
+                      <img style={icon} alt="linkedin" src={linkedin} />
                     </a>
                   </li>
                 </ul>
@@ -77,104 +63,28 @@ class Footer extends React.Component {
             <Col>
               <p style={{ textAlign: "center" }}>
                 {" "}
-                &copy; Copyright,2021 Made by Anmol Reshi
+                &copy; Copyright, 2022 Made Jonathan Jefferies
               </p>
             </Col>
           </Row>
         </Container>
       </div>
-      // <Container style={footerstyle}>
-      //   <Row>
-      //     <div className="socialmediaicons">
-      //       <ul className="listitems">
-      //         <Col xl={2} lg={2} sm={2} md={2} xs={2}>
-      //           <li>
-      //             <a
-      //               href="https://www.instagram.com/iamanmolreshi_20/"
-      //               target="_blank"
-      //               rel="noopener noreferrer"
-      //             >
-      //               <img style={icon} alt="instagram" src={instalogo} />
-      //             </a>
-      //           </li>
-      //         </Col>
-      //         <Col xl={2} lg={2} sm={2} md={2} xs={2}>
-      //           <li>
-      //             <a
-      //               href="mailto:anmolreshi@gmail.com"
-      //               target="_blank"
-      //               rel="noopener noreferrer"
-      //             >
-      //               <img style={icon} alt="gmail" src={gmail} />
-      //             </a>
-      //           </li>
-      //         </Col>
-      //         <Col xl={2} lg={2} sm={2} md={2} xs={2}>
-      //           <li>
-      //             <a
-      //               href="https://www.snapchat.com/"
-      //               target="_blank"
-      //               rel="noopener noreferrer"
-      //             >
-      //               <img style={icon} alt="snapchat" src={snapchat} />
-      //             </a>
-      //           </li>
-      //         </Col>
-      //         <Col xl={2} lg={2} sm={2} md={2} xs={2}>
-      //           <li>
-      //             <a
-      //               href="https://github.com/Anmolreshi"
-      //               target="_blank"
-      //               rel="noopener noreferrer"
-      //             >
-      //               <img style={icon} alt="github" src={github} />
-      //             </a>
-      //           </li>
-      //         </Col>
-      //         <Col xl={2} lg={2} sm={3} md={2} xs={2}>
-      //           <li>
-      //             <a
-      //               href="https://www.linkedin.com/in/anmolreshi/"
-      //               target="_blank"
-      //               rel="noopener noreferrer"
-      //             >
-      //               <img style={icon} alt="linkedin" src={linkedinlogo} />
-      //             </a>
-      //           </li>
-      //         </Col>
-      //       </ul>
-      //     </div>
-      //   </Row>
-      //   <Row>
-      //     <hr />
-      //   </Row>
-      //   <Row>
-      //     <div>
-      //       Made with{" "}
-      //       <img
-      //         className="loveicon"
-      //         alt="heart"
-      //         src="https://www.flaticon.com/svg/vstatic/svg/833/833472.svg?token=exp=1619416389~hmac=42def72c704b594f6258ff40afc323a6"
-      //       />
-      //       &nbsp; by Anmol
-      //     </div>
-      //   </Row>
-      // </Container>
     );
   }
 }
 const footerstyle = {
   height: "auto",
   width: "100%",
-  backgroundColor: "black",
+  backgroundColor: "white",
   textAlign: "center",
-  color: "white"
+  color: "black",
 };
 const icon = {
   height: "auto",
   width: "30px",
   cursor: "pointer",
-  borderRadius: "3px"
+  borderRadius: "3px",
+  textAlign: "center",
 };
 
 export default Footer;

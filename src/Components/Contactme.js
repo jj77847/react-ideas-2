@@ -1,8 +1,8 @@
 import React from "react";
 import { Container, Row, Button, Image, Col } from "react-bootstrap";
 import github from "../images/github.png";
-import twitter from "../images/twitter.png";
-import instagram from "../images/instagram.png";
+import gmail from "../images/gmail.png";
+import facebook from "../images/facebook.png";
 import linkedin from "../images/linkedin.png";
 import MyVerticallyCenteredModal from "./Modal";
 function Contact() {
@@ -21,7 +21,7 @@ function Contact() {
                 fontFamily: "Sans-serif",
                 backgroundColor: "rgb(102, 0, 102)",
                 borderRadius: "10px",
-                width: "max-Content"
+                width: "max-Content",
               }}
             >
               <h1
@@ -30,13 +30,13 @@ function Contact() {
                   fontSize: "5vw",
                   fontWeight: "bolder",
                   color: "white",
-                  padding: "1vw"
+                  padding: "1vw",
                 }}
               >
                 Get In Touch{" "}
                 <Image
                   style={{ height: "auto", width: "5vw" }}
-                  alt="Workexperince"
+                  alt="contact"
                   src="https://www.flaticon.com/svg/vstatic/svg/1033/1033949.svg?token=exp=1619702660~hmac=dd13ff73058f94395f17200e90526578"
                   responsive
                 />
@@ -55,7 +55,7 @@ function Contact() {
                   width: "max-content",
                   marginLeft: "30%",
                   paddingRight: "10px",
-                  paddingLeft: "10px"
+                  paddingLeft: "10px",
                 }}
               >
                 <p
@@ -63,7 +63,7 @@ function Contact() {
                     fontSize: "35px",
                     fontWeight: "bolder",
                     textAlign: "center",
-                    color: "white"
+                    color: "white",
                   }}
                 >
                   Want to Hire Me ?
@@ -113,9 +113,9 @@ function Contact() {
                         height: "auto",
                         width: "50px",
                         margin: "5px",
-                        borderRadius: "15%"
+                        borderRadius: "15%",
                       }}
-                      alt="linkedin"
+                      alt="github"
                       src={github}
                     />
                   </a>
@@ -125,19 +125,7 @@ function Contact() {
                         height: "auto",
                         width: "50px",
                         margin: "5px",
-                        borderRadius: "15%"
-                      }}
-                      alt="instagram"
-                      src={instagram}
-                    />
-                  </a>
-                  <a href="">
-                    <img
-                      style={{
-                        height: "auto",
-                        width: "50px",
-                        margin: "5px",
-                        borderRadius: "15%"
+                        borderRadius: "15%",
                       }}
                       alt="linkedin"
                       src={linkedin}
@@ -149,10 +137,22 @@ function Contact() {
                         height: "auto",
                         width: "50px",
                         margin: "5px",
-                        borderRadius: "15%"
+                        borderRadius: "15%",
                       }}
-                      alt="twitter"
-                      src={twitter}
+                      alt="gmail"
+                      src={gmail}
+                    />
+                  </a>
+                  <a href="">
+                    <img
+                      style={{
+                        height: "auto",
+                        width: "50px",
+                        margin: "5px",
+                        borderRadius: "15%",
+                      }}
+                      alt="facebook"
+                      src={facebook}
                     />
                   </a>
                 </Row>
@@ -167,6 +167,6 @@ function Contact() {
 const outside = {
   backgroundColor: "white",
   boxShadow: "5px 5px 4px ",
-  height: "fit-Content"
+  height: "fit-Content",
 };
 export default Contact;

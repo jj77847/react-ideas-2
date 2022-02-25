@@ -47,12 +47,10 @@ class About extends React.Component {
         <Row>
           <Card className="text-center" style={hiremebox}>
             <Card.Body>
-              <Card.Title className="fonthire">
-                If you like what you see, please contact me
-              </Card.Title>
+              <Card.Title className="fonthire">My Resume</Card.Title>
               <img alt="hirelogo" style={hirelogo} src={approval} />
               <Button className="btnhire" variant="primary">
-                Cick Here
+                Download
               </Button>
             </Card.Body>
           </Card>

@@ -50,10 +50,7 @@
   margin-top: 20px;
   font-family: sans-serif;
 }
-.anim-typewriter {
-  animation: typewriter 6s steps(48) 1s 1 normal both,
-    blinkTextCursor 500ms steps(48) infinite normal;
-}
+
 @keyframes blinkTextCursor {
   from {
     border-right-color: rgba(0, 0, 0, 0.75);
@@ -63,14 +60,6 @@
   }
 }
 
-@keyframes typewriter {
-  from {
-    width: 0;
-  }
-  to {
-    width: 11.2em;
-  }
-}
 /* Footer */
 .loveicon {
   height: 16px;
@@ -123,10 +112,7 @@ hr {
 .box-myimage {
   padding: 10px;
 }
-.ss {
-  background-color: rgb(38, 100, 129);
-  height: 50px;
-}
+
 .navtab {
   color: white;
 }
