@@ -1,2 +1,2 @@
-# react-ideas-2-Johnson-Avenue
+# react-ideas-2
 testing react web app
