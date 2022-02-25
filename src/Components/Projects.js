@@ -51,7 +51,8 @@ class Project extends React.Component {
                   <Card.Img
                     style={{ height: "150px", padding: "10px" }}
                     variant="top"
-                    src="src/images/marketing-screenshot-1.png"
+                    src={require("../images/marketing-screenshot-1.png")}
+                    alt="Marketing-Accessability"
                   />
                   <Card.Body>
                     <Card.Title>Accessability Website</Card.Title>
@@ -104,18 +105,21 @@ class Project extends React.Component {
                   <Card.Img
                     style={{ height: "150px", padding: "10px" }}
                     variant="top"
-                    src="https://www.flaticon.com/svg/vstatic/svg/1814/1814008.svg?token=exp=1619675550~hmac=11a4e0c0a47b34696c4bd3f29a48f6f0"
+                    src="https://github.com/jj77847/react-ideas-2/blob/3ea0817d6334d3b341d799bc6a281e246e011aac/src/images/password-generator-screenshot-2.png"
                   />
                   <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
+                    <Card.Title>Password Generator</Card.Title>
                     <Card.Text>
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
+                      In this project I have created a README generator using
+                      Node.js with the inquirer package. This allows a user to
+                      go through a series of terminal prompts and the program
+                      creates a markdown file using the answers collected from
+                      the user.
                     </Card.Text>
                     <Button variant="warning">
                       <a
                         style={{ textDecoration: "none", color: "black" }}
-                        href="https://github.com/"
+                        href="https://github.com/jj77847/good-readme-generator"
                       >
                         Github
                         <img
@@ -133,9 +137,9 @@ class Project extends React.Component {
                     <Button variant="success">
                       <a
                         style={{ textDecoration: "none", color: "black" }}
-                        href="https://www.flaticon.com/"
+                        href="https://youtu.be/0sOWbX9wO88"
                       >
-                        Links
+                        Video Link
                         <img
                           style={{
                             height: "25px",
@@ -159,18 +163,18 @@ class Project extends React.Component {
                   <Card.Img
                     style={{ height: "150px", padding: "10px" }}
                     variant="top"
-                    src="https://www.flaticon.com/svg/vstatic/svg/1814/1814008.svg?token=exp=1619675550~hmac=11a4e0c0a47b34696c4bd3f29a48f6f0"
+                    src="https://github.com/jj77847/react-ideas-2/blob/3ea0817d6334d3b341d799bc6a281e246e011aac/src/images/profile-screenshot-3.png"
                   />
                   <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
+                    <Card.Title>Portfolio</Card.Title>
                     <Card.Text>
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
+                      Portfolio of Jonathan Jefferies using example websites
+                      from GitHub, Codepen, Freecodecamp and Futurelearn.
                     </Card.Text>
                     <Button variant="warning">
                       <a
                         style={{ textDecoration: "none", color: "black" }}
-                        href="https://github.com/"
+                        href="https://github.com/jj77847/portfolio/tree/dev/"
                       >
                         Github
                         <img
@@ -188,7 +192,7 @@ class Project extends React.Component {
                     <Button variant="success">
                       <a
                         style={{ textDecoration: "none", color: "black" }}
-                        href="https://www.flaticon.com/"
+                        href="https://jj77847.github.io/portfolio"
                       >
                         Links
                         <img
@@ -215,15 +219,14 @@ class Project extends React.Component {
                     src="https://www.flaticon.com/svg/vstatic/svg/1814/1814008.svg?token=exp=1619675550~hmac=11a4e0c0a47b34696c4bd3f29a48f6f0"
                   />
                   <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
+                    <Card.Title>Code Quiz</Card.Title>
                     <Card.Text>
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
+                      Batman 66 inspired quiz using JavaScript, HTML and CSS
                     </Card.Text>
                     <Button variant="warning">
                       <a
                         style={{ textDecoration: "none", color: "black" }}
-                        href="https://github.com/"
+                        href="https://github.com/jj77847/code-quiz/"
                       >
                         Github
                         <img
@@ -241,7 +244,7 @@ class Project extends React.Component {
                     <Button variant="success">
                       <a
                         style={{ textDecoration: "none", color: "black" }}
-                        href="https://github.com/"
+                        href="https://jj77847.github.io/code-quiz/"
                       >
                         Demo
                         <img
