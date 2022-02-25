@@ -1,40 +1,40 @@
 import React from "react";
 import { Nav } from "react-bootstrap";
 import "font-awesome/css/font-awesome.min.css";
-import About from "./Aboutme";
+import About from "./AboutMe";
 import Certifications from "./Certifications";
-import Contact from "./Contactme";
+import Contact from "./Contact";
 import Project from "./Projects";
-import WorkExperiences from "./Workexperience";
+import Experience from "./Experience";
 import Footer from "./Footer";
 class Navbars extends React.Component {
   constructor() {
     super();
     this.state = {
-      activePage: "Aboutme",
+      activePage: "AboutMe",
     };
   }
-  aboutme = () => {
+  AboutMe = () => {
     this.setState({
-      activePage: "Aboutme",
+      activePage: "AboutMe",
     });
     console.log("Active Page :", this.state);
   };
-  workExperience = () => {
+  Experience = () => {
     this.setState({
-      activePage: "Workexperinence",
+      activePage: "Experience",
     });
     console.log("Active Page :", this.state);
   };
-  contactme = () => {
+  contact = () => {
     this.setState({
-      activePage: "Contactme",
+      activePage: "Contact",
     });
     console.log("Active Page :", this.state);
   };
   certifications = () => {
     this.setState({
-      activePage: "Certification",
+      activePage: "Certifications",
     });
     console.log("Active Page :", this.state);
   };
@@ -53,23 +53,22 @@ class Navbars extends React.Component {
     return (
       <div>
         {/* <div style={navbar}>
-          <div style={{ fontSize: "31px", marginTop: "0px" }}>Anmol Reshi</div>
+          <div style={{ fontSize: "31px", marginTop: "0px" }}>Jonathan Jefferies</div>
 
           <ul className="listitems">
-            <li className="items" onClick={this.aboutme}>
+            <li className="items" onClick={this.AboutMe}>
               About
             </li>
-            <li className="items" onClick={this.certifications}>
+            <li className="items" onClick={this.Certifications}>
               Certifications
             </li>
-            
-            <li className="items" onClick={this.workExperience}>
-              Work Experience
+            <li className="items" onClick={this.Experience}>
+              Experience
             </li>
-            <li className="items" onClick={this.projects}>
+            <li className="items" onClick={this.Projects}>
               Projects
             </li>
-            <li className="items" onClick={this.contactme}>
+            <li className="items" onClick={this.Contact}>
               Contact
             </li>
           </ul>
@@ -84,7 +83,7 @@ class Navbars extends React.Component {
         >
           <Nav.Item>
             <Nav.Link
-              onClick={this.aboutme}
+              onClick={this.AboutMe}
               className="navtab"
               style={{ borderRadius: "0px", fontSize: "23px" }}
               href="/home"
@@ -99,36 +98,6 @@ class Navbars extends React.Component {
           </Nav.Item>
           <Nav.Item>
             <Nav.Link
-              onClick={this.workExperience}
-              className="navtab"
-              style={{ borderRadius: "0px", fontSize: "23px" }}
-              eventKey="link-1"
-            >
-              Work
-              <img
-                alt=""
-                style={{ height: "29px", marginLeft: "10px" }}
-                src="https://www.flaticon.com/svg/vstatic/svg/2910/2910791.svg?token=exp=1619454335~hmac=ccf956642cfe9a204af81cd49dbab796"
-              />
-            </Nav.Link>
-          </Nav.Item>
-          <Nav.Item>
-            <Nav.Link
-              onClick={this.projects}
-              className="navtab"
-              style={{ borderRadius: "0px", fontSize: "23px" }}
-              eventKey="link-2"
-            >
-              Projects
-              <img
-                alt=""
-                style={{ height: "29px", marginLeft: "10px" }}
-                src="https://www.flaticon.com/svg/vstatic/svg/1087/1087902.svg?token=exp=1619454625~hmac=8509c541e5a7b8f04b6739c5b486aade"
-              />
-            </Nav.Link>
-          </Nav.Item>
-          {/* <Nav.Item>
-            <Nav.Link
               onClick={this.certifications}
               className="navtab"
               style={{ borderRadius: "0px", fontSize: "23px" }}
@@ -142,10 +111,40 @@ class Navbars extends React.Component {
               "
               />
             </Nav.Link>
-          </Nav.Item> */}
+            <Nav.Item>
+              <Nav.Link
+                onClick={this.Experience}
+                className="navtab"
+                style={{ borderRadius: "0px", fontSize: "23px" }}
+                eventKey="link-1"
+              >
+                Experience
+                <img
+                  alt=""
+                  style={{ height: "29px", marginLeft: "10px" }}
+                  src="https://www.flaticon.com/svg/vstatic/svg/2910/2910791.svg?token=exp=1619454335~hmac=ccf956642cfe9a204af81cd49dbab796"
+                />
+              </Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link
+                onClick={this.projects}
+                className="navtab"
+                style={{ borderRadius: "0px", fontSize: "23px" }}
+                eventKey="link-2"
+              >
+                Projects
+                <img
+                  alt=""
+                  style={{ height: "29px", marginLeft: "10px" }}
+                  src="https://www.flaticon.com/svg/vstatic/svg/1087/1087902.svg?token=exp=1619454625~hmac=8509c541e5a7b8f04b6739c5b486aade"
+                />
+              </Nav.Link>
+            </Nav.Item>
+          </Nav.Item>
           <Nav.Item>
             <Nav.Link
-              onClick={this.contactme}
+              onClick={this.contact}
               className="navtab"
               style={{ borderRadius: "0px", fontSize: "23px" }}
               eventKey="Contact"
@@ -160,21 +159,22 @@ class Navbars extends React.Component {
           </Nav.Item>
         </Nav>
 
-        {activePage === "Aboutme" ? <About /> : null}
+        {activePage === "AboutMe" ? <About /> : null}
         {activePage === "Certification" ? <Certifications /> : null}
-        {activePage === "Workexperinence" ? <WorkExperiences /> : null}
+        {activePage === "Experience" ? <Experience /> : null}
         {activePage === "Projects" ? <Project /> : null}
-        {activePage === "Contactme" ? <Contact /> : null}
+        {activePage === "Contact" ? <Contact /> : null}
         <Footer />
       </div>
     );
   }
 }
-// const navbar = {
-//   color: "white",
-//   backgroundColor: "DodgerBlue",
-//   padding: "10px",
-//   display: "flex",
-//   height: "auto"
-// };
+const navbar = {
+  color: "black",
+  backgroundColor: "red",
+  padding: "10px",
+  display: "flex",
+  height: "auto",
+};
+
 export default Navbars;

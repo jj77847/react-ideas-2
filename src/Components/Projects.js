@@ -2,7 +2,8 @@ import React from "react";
 import { Col, Container, Row, Card, Button, Image } from "react-bootstrap";
 import project from "../images/projects.png";
 import github from "../images/github.png";
-import foreign from "../images/foreign.png";
+import Foreign from "../images/foreign.png";
+
 class Project extends React.Component {
   render() {
     return (
@@ -50,18 +51,18 @@ class Project extends React.Component {
                   <Card.Img
                     style={{ height: "150px", padding: "10px" }}
                     variant="top"
-                    src="https://www.flaticon.com/svg/vstatic/svg/1814/1814008.svg?token=exp=1619675550~hmac=11a4e0c0a47b34696c4bd3f29a48f6f0"
+                    src="src/images/marketing-screenshot-1.png"
                   />
                   <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
+                    <Card.Title>Accessability Website</Card.Title>
                     <Card.Text>
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
+                      Tasked with refactoring a marketing website focusing on
+                      accessability and readability in the html and css.
                     </Card.Text>
                     <Button variant="warning">
                       <a
                         style={{ textDecoration: "none", color: "black" }}
-                        href="https://github.com/"
+                        href="https://github.com/jj77847/marketing-acessability-website/tree/dev"
                       >
                         Github
                         <img
@@ -79,7 +80,7 @@ class Project extends React.Component {
                     <Button variant="success">
                       <a
                         style={{ textDecoration: "none", color: "black" }}
-                        href="https://www.flaticon.com/"
+                        href="https://jj77847.github.io/marketing-acessability-website/"
                       >
                         Links
                         <img
@@ -89,7 +90,7 @@ class Project extends React.Component {
                             borderRadius: "15%",
                           }}
                           alt="foreign"
-                          src="https://cdn-icons-png.flaticon.com/128/376/376007.png"
+                          src={Foreign}
                         />
                       </a>
                     </Button>

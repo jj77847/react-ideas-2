@@ -1,9 +1,10 @@
 import React from "react";
 import "../styles.css";
-import sudanstech from "../images/sudans.png";
 import student from "../images/student.png";
+import placeHolderImg from "../images/place-holder-img.png";
 import { Col, Container, Row, Image } from "react-bootstrap";
-class WorkExperiences extends React.Component {
+import Experiences from "../images/experience.png";
+class Experience extends React.Component {
   render() {
     return (
       <div>
@@ -36,7 +37,7 @@ class WorkExperiences extends React.Component {
                   fontFamily: "Sans-serif",
                   backgroundColor: "rgb(102, 0, 102)",
                   borderRadius: "10px",
-                  width: "max-Content"
+                  width: "max-Content",
                 }}
               >
                 <h1
@@ -45,14 +46,14 @@ class WorkExperiences extends React.Component {
                     fontSize: "5vw",
                     fontWeight: "bolder",
                     color: "white",
-                    padding: "1vw"
+                    padding: "1vw",
                   }}
                 >
-                  Work Experience{" "}
+                  Experience{" "}
                   <Image
                     style={{ height: "auto", width: "10vw" }}
-                    alt="Workexperince"
-                    src={student}
+                    alt="Experince"
+                    src={Experiences}
                     responsive
                   />
                 </h1>
@@ -101,7 +102,7 @@ class WorkExperiences extends React.Component {
             <Container className="cardConatiner">
               <Row>
                 <Col xl={2} lg={2} sm={4} xs={5}>
-                  <img style={companylogo} alt="logo" src={sudanstech} />
+                  <img style={companylogo} alt="logo" src={placeHolderImg} />
                 </Col>
                 <Col xl={5} lg={4} sm={6} xs={6}>
                   <Row style={{ fontSize: "25px", fontWeight: "bold" }}>
@@ -238,13 +239,13 @@ class WorkExperiences extends React.Component {
   }
 }
 const text = {
-  padding: "10px"
+  padding: "10px",
 };
 const companylogo = {
   height: "auto",
   width: "90px",
   marginTop: "10px",
   marginLeft: "15px",
-  boxShadow: "2px 2px 3px 1px black"
+  boxShadow: "2px 2px 3px 1px black",
 };
-export default WorkExperiences;
+export default Experience;
