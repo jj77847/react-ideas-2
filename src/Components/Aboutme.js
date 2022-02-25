@@ -9,32 +9,44 @@ class About extends React.Component {
       <Container className="outerbox">
         <Row className="boxabout">
           <Col className="box-myimage" xl={4} lg={5} md={2} sm={2} xs={12}>
-            <img style={myimage} alt="myimagepic" src={image} />
+            <img style={myimage} alt="profile image" src={image} />
           </Col>
           <Col xl={8} lg={7} sm={12} md={12} xs={12}>
             <p style={mytext}>
               <h1 id="name">Jonathan Jefferies</h1>
-              <h2 class="line-1 anim-typewriter">Full Stack Web Developer</h2>
+              <h2 class="content">Full Stack Web Developer</h2>
               <br />
+            <p>
               Hi, I'm <span className="bold">Jonathan Jefferies</span>, I'm
               coming to the end of a intensive 12 months of learning Coding for
               a career change form working in the gym and outdoor industry for
               10yrs. Ive done 6 months of self study in preparation for studying
               Coding Boot-camp with Birmingham University. Once I've finished I
-              will be a 'Full Stack Web Developer' enjoy{" "}
-              <span role="img" aria-label="hey">
-                ⚡
-              </span>{" "}
-              Programming in C++ mainly as it involves problem solving , and I
-              Love to be Front-End developer and passionate in developing UI of
-              website as well .loren sumd jd jr ff fjf d fjfjrfbrf fnrfrf rfir
-              fjfrfn firfbrfb bfrbfjr jefbrjf rfrjfr rjfnrfn krnfkrnf jfnrifnr
-              frjfrbf4 jbfj See also Navs for additional components and
-              PropTypes. Cards include a few options for working with images.
-              Choose from ng “image caps” at either end of a card, overlaying
-              images with card content, or simply embedding the image in a card.
+              will be a 'Full Stack Web Developer'.
             </p>
-          </Col>
+            <p>
+              I've been focusing on the basics of coding using HTML, CSS and
+              Python, using Freecodecamp.com and Futurelearn.com courses.
+            </p>
+            <p>
+              Details of courses and on my Linkedin profile:{" "}
+              <a href="https://www.linkedin.com/in/jonathan-jefferies-70916110b/">
+                Linkedin.
+              </a>
+            </p>
+            <p>
+              I'm currently in the last phase of the Boot-Camp and I'm enjoying
+              the challenges of working with HTML, CSS, JavaScript, JQuery,
+              MySQL, Sequelize, Node JS, Express JS, Handlebars JS, MVC
+              Paradigm, Heroku, Node, Npm and Github. Im just starting React and
+              putting together a full stack applications.
+            </p> 
+            <p>
+              Examples of my projects
+              are below and further details of my projects are on my Github
+              Profile:{" "}<a href="https://github.com/jj77847">Github</a>.
+            </p>
+            </Col>
         </Row>
         <Row>
           <Card className="text-center" style={hiremebox}>

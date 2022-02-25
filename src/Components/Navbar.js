@@ -11,36 +11,36 @@ class Navbars extends React.Component {
   constructor() {
     super();
     this.state = {
-      activePage: "Aboutme"
+      activePage: "Aboutme",
     };
   }
   aboutme = () => {
     this.setState({
-      activePage: "Aboutme"
+      activePage: "Aboutme",
     });
     console.log("Active Page :", this.state);
   };
   workExperience = () => {
     this.setState({
-      activePage: "Workexperinence"
+      activePage: "Workexperinence",
     });
     console.log("Active Page :", this.state);
   };
   contactme = () => {
     this.setState({
-      activePage: "Contactme"
+      activePage: "Contactme",
     });
     console.log("Active Page :", this.state);
   };
   certifications = () => {
     this.setState({
-      activePage: "Certification"
+      activePage: "Certification",
     });
     console.log("Active Page :", this.state);
   };
   projects = () => {
     this.setState({
-      activePage: "Projects"
+      activePage: "Projects",
     });
     console.log("Active Page :", this.state);
   };
@@ -60,6 +60,15 @@ class Navbars extends React.Component {
               About
             </li>
             <li className="items" onClick={this.certifications}>
+              Certifications
+            </li>
+             <li className="items" onClick={this.certifications}>
+              Certifications
+            </li>
+             <li className="items" onClick={this.certifications}>
+              Certifications
+            </li>
+             <li className="items" onClick={this.certifications}>
               Certifications
             </li>
             <li className="items" onClick={this.workExperience}>
