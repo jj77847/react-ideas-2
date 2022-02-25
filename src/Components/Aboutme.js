@@ -16,43 +16,39 @@ class About extends React.Component {
               <h1 id="name">Jonathan Jefferies</h1>
               <h2 class="content">Full Stack Web Developer</h2>
               <br />
-            <p>
               Hi, I'm <span className="bold">Jonathan Jefferies</span>, I'm
               coming to the end of a intensive 12 months of learning Coding for
               a career change form working in the gym and outdoor industry for
               10yrs. Ive done 6 months of self study in preparation for studying
-              Coding Boot-camp with Birmingham University. Once I've finished I
-              will be a 'Full Stack Web Developer'.
-            </p>
-            <p>
-              I've been focusing on the basics of coding using HTML, CSS and
-              Python, using Freecodecamp.com and Futurelearn.com courses.
-            </p>
-            <p>
+              at University (HTML, CSS and Python, using Freecodecamp.com and
+              Futurelearn.com courses) Coding Boot-camp with Birmingham
+              University. Once I've finished I will be a 'Full Stack Web
+              Developer'.
+              <br />
+              <br />
               Details of courses and on my Linkedin profile:{" "}
               <a href="https://www.linkedin.com/in/jonathan-jefferies-70916110b/">
                 Linkedin.
               </a>
-            </p>
-            <p>
+              <br />
               I'm currently in the last phase of the Boot-Camp and I'm enjoying
               the challenges of working with HTML, CSS, JavaScript, JQuery,
               MySQL, Sequelize, Node JS, Express JS, Handlebars JS, MVC
               Paradigm, Heroku, Node, Npm and Github. Im just starting React and
               putting together a full stack applications.
-            </p> 
-            <p>
-              Examples of my projects
-              are below and further details of my projects are on my Github
-              Profile:{" "}<a href="https://github.com/jj77847">Github</a>.
+              <br />
+              <br />
+              Examples of my projects are below and further details of my
+              projects are on my Github Profile:{" "}
+              <a href="https://github.com/jj77847">Github</a>.
             </p>
-            </Col>
+          </Col>
         </Row>
         <Row>
           <Card className="text-center" style={hiremebox}>
             <Card.Body>
               <Card.Title className="fonthire">
-                if you like what you see, please contact me
+                If you like what you see, please contact me
               </Card.Title>
               <img alt="hirelogo" style={hirelogo} src={approval} />
               <Button className="btnhire" variant="primary">
