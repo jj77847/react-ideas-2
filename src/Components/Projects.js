@@ -244,17 +244,17 @@ class Project extends React.Component {
                     <Button variant="success">
                       <a
                         style={{ textDecoration: "none", color: "black" }}
-                        href="https://jj77847.github.io/code-quiz/"
+                        href="https://jj77847.github.io/marketing-acessability-website/"
                       >
-                        Demo
+                        Links
                         <img
                           style={{
                             height: "25px",
                             marginLeft: "10px",
-                            borderRadius: "50%",
+                            borderRadius: "15%",
                           }}
-                          alt="codesandbox"
-                          src="https://pbs.twimg.com/profile_images/1171375829382774784/70ZgE-ke_400x400.png"
+                          alt="foreign"
+                          src={Foreign}
                         />
                       </a>
                     </Button>
@@ -270,13 +270,13 @@ class Project extends React.Component {
                   <Card.Img
                     style={{ height: "150px", padding: "10px" }}
                     variant="top"
-                    src="https://www.flaticon.com/svg/vstatic/svg/1814/1814008.svg?token=exp=1619675550~hmac=11a4e0c0a47b34696c4bd3f29a48f6f0"
+                    src="./assets/img/workdayscheduler-screenshot-with-info-5.png"
                   />
                   <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
+                    <Card.Title>Work Day Scheduler</Card.Title>
                     <Card.Text>
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
+                      Calendar application that allows the user to save events
+                      for each hour of the day.
                     </Card.Text>
                     <Button variant="warning">
                       <a
@@ -299,17 +299,17 @@ class Project extends React.Component {
                     <Button variant="success">
                       <a
                         style={{ textDecoration: "none", color: "black" }}
-                        href="https://github.com/"
+                        href="https://jj77847.github.io/marketing-acessability-website/"
                       >
-                        Demo
+                        Links
                         <img
                           style={{
                             height: "25px",
                             marginLeft: "10px",
-                            borderRadius: "50%",
+                            borderRadius: "15%",
                           }}
-                          alt="codesandbox"
-                          src="https://pbs.twimg.com/profile_images/1171375829382774784/70ZgE-ke_400x400.png"
+                          alt="foreign"
+                          src={Foreign}
                         />
                       </a>
                     </Button>
@@ -323,13 +323,15 @@ class Project extends React.Component {
                   <Card.Img
                     style={{ height: "150px", padding: "10px" }}
                     variant="top"
-                    src="https://www.flaticon.com/svg/vstatic/svg/1814/1814008.svg?token=exp=1619675550~hmac=11a4e0c0a47b34696c4bd3f29a48f6f0"
+                    src="./assets/img/weather-dashboard-screenshot-6.png"
                   />
                   <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
+                    <Card.Title>Weather Dashboard</Card.Title>
                     <Card.Text>
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
+                      A simple web application that allows users to search for a
+                      city to get the current weather and 5 day forecast.
+                      Locations that users previously looked up will be saved in
+                      their local storage.
                     </Card.Text>
                     <Button variant="warning">
                       <a
@@ -352,17 +354,17 @@ class Project extends React.Component {
                     <Button variant="success">
                       <a
                         style={{ textDecoration: "none", color: "black" }}
-                        href="https://github.com/"
+                        href="https://jj77847.github.io/marketing-acessability-website/"
                       >
-                        Demo
+                        Links
                         <img
                           style={{
                             height: "25px",
                             marginLeft: "10px",
-                            borderRadius: "50%",
+                            borderRadius: "15%",
                           }}
-                          alt="codesandbox"
-                          src="https://pbs.twimg.com/profile_images/1171375829382774784/70ZgE-ke_400x400.png"
+                          alt="foreign"
+                          src={Foreign}
                         />
                       </a>
                     </Button>
@@ -379,4 +381,5 @@ class Project extends React.Component {
 const boxcard = {
   boxShadow: "2px 2px 3px",
 };
+
 export default Project;
