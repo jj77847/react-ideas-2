@@ -1,6 +1,5 @@
 import React from "react";
 import "../styles.css";
-import student from "../images/student.png";
 import placeHolderImg from "../images/place-holder-img.png";
 import { Col, Container, Row, Image } from "react-bootstrap";
 import Experiences from "../images/experience.png";
@@ -9,20 +8,6 @@ class Experience extends React.Component {
     return (
       <div>
         <Container>
-          {/* <div className="t">
-            <h1 style={heading}>
-            Expereince
-            <img
-            style={imagework}
-            alt="work"
-            src="https://www.flaticon.com/svg/vstatic/svg/1063/1063196.svg?token=exp=1619603866~hmac=4b9273eec67fe2d29c39d9a985cb92f4"/>
-            </h1>
-        </div> */}
-          {/* <img
-              style={work}
-              alt="work"
-              src="https://www.changeboard.com/images/7429/default/work-experience.jpg"
-            /> */}
           <meta
             name="viewport"
             content="width=device-width, initial-scale=1.0"
@@ -65,35 +50,27 @@ class Experience extends React.Component {
           <div className="sizetab">
             <Container className="cardConatiner">
               <Row>
-                <Col xl={2} lg={2} sm={4} xs={5}>
-                  <img
-                    style={companylogo}
-                    alt="logo"
-                    src="https://media-exp1.licdn.com/dms/image/C560BAQGqYuNSzyLC7A/company-logo_200_200/0/1598875669653?e=2159024400&v=beta&t=rkNWVyMudYugZTXcSGcNOnhWGUlGeHdtlpysE5fJw_4"
-                  />
-                </Col>
+                <Col xl={2} lg={2} sm={4} xs={5}></Col>
                 <Col xl={5} lg={4} sm={6} xs={6}>
                   <Row style={{ fontSize: "4vh", fontWeight: "bold" }}>
                     {" "}
-                    Organising Team{" "}
+                    Jubilee2{" "}
                   </Row>
                   <Row style={{ fontSize: "3vh" }}>
-                    <a
-                      style={{ textDecoration: "none", color: "black" }}
-                      href="https://hackthemountain.tech/season2/#team"
-                    >
-                      Hack The Mountains
-                    </a>
+                    <a>Personal Trainer and Climbing Wall Instructor</a>
                   </Row>
-                  <Row>(Aug 2020 - Present)</Row>
+                  <Row>(2012 - 2017)</Row>
                 </Col>
               </Row>
               <Row style={text}>
-                Organizing a 36 hour Virtual Hackathon which is held on 26-27th
-                June ,2021 and is to be held at global level . By partnered with
-                MLH (Major Hacking League ) , It will be held On International
-                Level . I contributed in Community section of Team , All content
-                and making part in some descion was handled by myself.
+                Training In-House Gym Instructors and Lifeguards to enable them
+                to become Climbing Wall Instructors. Running Tasters, Kids club,
+                Adult Climbing and disabled Abseiling sessions. Route setting
+                the bouldering and traversing walls. Running all Sessions and
+                maintaining paperwork eg Nicas lvls 1 and 2, Lead Climbing and
+                Tru Blue Autos. All aspects of gym inductions, cleaning,
+                paperwork and working taking PT/Rehab Injury sessions, focussing
+                on Bodyweight and TRX/functional training.
               </Row>
             </Container>
           </div>
@@ -101,23 +78,22 @@ class Experience extends React.Component {
           <div className="sizetab">
             <Container className="cardConatiner">
               <Row>
-                <Col xl={2} lg={2} sm={4} xs={5}>
-                  <img style={companylogo} alt="logo" src={placeHolderImg} />
-                </Col>
+                <Col xl={2} lg={2} sm={4} xs={5}></Col>
                 <Col xl={5} lg={4} sm={6} xs={6}>
                   <Row style={{ fontSize: "25px", fontWeight: "bold" }}>
-                    Core Team Member
+                    Academics
                   </Row>
-                  <Row style={{ fontSize: "20px" }}>Sudans Tech</Row>
-                  <Row>(April 2019 - Pesent)</Row>
+                  <Row style={{ fontSize: "20px" }}>
+                    Special Needs Teaching Assistant(Autism and Deaf)
+                  </Row>
+                  <Row>(2018 - 2019)</Row>
                 </Col>
               </Row>
               <Row style={text}>
-                Working with Core Team of Sudans Tech as Senior Content Writer .
-                Providing SEO Optimized and user friendly Content , Blogs ,
-                articles and poster Content as well. Also Involved in various
-                Plans for betterment of Company as well as working for serving
-                the community at greater Scale .
+                Working with various schools in Stoke-on-Trent and all aspects
+                of classroom assistant role and 1:1 support to various disabled
+                students. Working mainly Autistic, Cebreal palsy and Deaf
+                children ranging from 5yrs to 16yrs.
               </Row>
             </Container>
           </div>
@@ -125,27 +101,21 @@ class Experience extends React.Component {
           <div className="sizetab">
             <Container className="cardConatiner">
               <Row>
-                <Col xl={2} lg={2} sm={4} xs={5}>
-                  <img
-                    style={companylogo}
-                    alt="logo"
-                    src="https://res-3.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco/v1500550935/qigpiu6kicm4phqbi2il.png"
-                  />
-                </Col>
+                <Col xl={2} lg={2} sm={4} xs={5}></Col>
                 <Col xl={5} lg={4} sm={6} xs={6}>
                   <Row style={{ fontSize: "25px", fontWeight: "bold" }}>
-                    Software Developer
+                    Family Commitments
                   </Row>
-                  <Row style={{ fontSize: "20px" }}>Linkedin</Row>
-                  <Row>(Aug 2019 -2020)</Row>
+                  <Row style={{ fontSize: "20px" }}>Stay at Home Dad</Row>
+                  <Row>(2020 - 2022)</Row>
                 </Col>
               </Row>
               <Row style={text}>
-                Role description i worked as this and that and then this and
-                then xyz lorem ispusm lorem ispusm lorem ispusm lorem ispusm
-                lorem ispusm lorem ispusm lorem ispusmlorem ispusm lorem ispusm
-                lorem ispusm lorem lorem ispusm lorem ispusm lorem lorem ispusm
-                lorem ispusm lorem lorem ispusm lorem ispusm lorem
+                Looking after my 4yrs and 1yrs Daughters, also retraining in the
+                evenings and nap-times as the about me section states 'self
+                taught web developer for 6 months focusing on the basics of
+                coding using mainly Futurelearn.com foundational courses Jan-Feb
+                2021'.
               </Row>
             </Container>
           </div>
@@ -153,83 +123,24 @@ class Experience extends React.Component {
           <div className="sizetab">
             <Container className="cardConatiner">
               <Row>
-                <Col xl={2} lg={2} sm={4} xs={5}>
-                  <img
-                    style={companylogo}
-                    alt="logo"
-                    src="https://cutshort-data.s3.amazonaws.com/cloudfront/public/companies/5e207a62f14e210b6e9b551b/logo_1579261993651_Parakh_Logo_Wc7J.jpeg"
-                  />
-                </Col>
+                <Col xl={2} lg={2} sm={4} xs={5}></Col>
                 <Col xl={5} lg={4} sm={6} xs={6}>
                   <Row style={{ fontSize: "25px", fontWeight: "bold" }}>
-                    Software Developer
+                    Full Stack Web Developer
                   </Row>
-                  <Row style={{ fontSize: "20px" }}>Linkedin</Row>
-                  <Row>(Aug 2019 -2020)</Row>
+                  <Row style={{ fontSize: "20px" }}>
+                    Birmingham University - Coding Boot-camp
+                  </Row>
+                  <Row>(September 2021 to March 2022)</Row>
                 </Col>
               </Row>
               <Row style={text}>
-                Role description i worked as this and that and then this and
-                then xyz lorem ispusm lorem ispusm lorem ispusm lorem ispusm
-                lorem ispusm lorem ispusm lorem ispusmlorem ispusm lorem ispusm
-                lorem ispusm lorem lorem ispusm lorem ispusm lorem lorem ispusm
-                lorem ispusm lorem lorem ispusm lorem ispusm lorem
-              </Row>
-            </Container>
-          </div>
-
-          <div className="sizetab">
-            <Container className="cardConatiner">
-              <Row>
-                <Col xl={2} lg={2} sm={4} xs={5}>
-                  <img
-                    style={companylogo}
-                    alt="logo"
-                    src="https://media-exp1.licdn.com/dms/image/C510BAQGcdgv6GT95fQ/company-logo_200_200/0/1530377894696?e=2159024400&v=beta&t=zKCLxAQGLWZpajDjvOUz9BDtk1zGZ3kGO3qQfpEFBV8"
-                  />
-                </Col>
-                <Col xl={5} lg={4} sm={6} xs={6}>
-                  <Row style={{ fontSize: "25px", fontWeight: "bold" }}>
-                    Software Developer
-                  </Row>
-                  <Row style={{ fontSize: "20px" }}>Linkedin</Row>
-                  <Row>(Aug 2019 -2020)</Row>
-                </Col>
-              </Row>
-              <Row style={text}>
-                Role description i worked as this and that and then this and
-                then xyz lorem ispusm lorem ispusm lorem ispusm lorem ispusm
-                lorem ispusm lorem ispusm lorem ispusmlorem ispusm lorem ispusm
-                lorem ispusm lorem lorem ispusm lorem ispusm lorem lorem ispusm
-                lorem ispusm lorem lorem ispusm lorem ispusm lorem
-              </Row>
-            </Container>
-          </div>
-
-          <div className="sizetab">
-            <Container className="cardConatiner">
-              <Row>
-                <Col xl={2} lg={2} sm={4} xs={5}>
-                  <img
-                    style={companylogo}
-                    alt="logo"
-                    src="https://pbs.twimg.com/profile_images/1235811600180764674/0jBig00h.jpg"
-                  />
-                </Col>
-                <Col xl={5} lg={4} sm={6} xs={6}>
-                  <Row style={{ fontSize: "25px", fontWeight: "bold" }}>
-                    Software Developer
-                  </Row>
-                  <Row style={{ fontSize: "20px" }}>Linkedin</Row>
-                  <Row>(Aug 2019 -2020)</Row>
-                </Col>
-              </Row>
-              <Row style={text}>
-                Role description i worked as this and that and then this and
-                then xyz lorem ispusm lorem ispusm lorem ispusm lorem ispusm
-                lorem ispusm lorem ispusm lorem ispusmlorem ispusm lorem ispusm
-                lorem ispusm lorem lorem ispusm lorem ispusm lorem lorem ispusm
-                lorem ispusm lorem lorem ispusm lorem ispusm lorem
+                I've recently enrolled in Birmingham University's 6 month
+                intensive Coding Boot Camp in September 2021. After it finishes
+                in March 2022, I will be a Full Stack Web Developer. As of the
+                1st phase of the University Boot camp, I'm currently operating
+                at average academic grade of A. Examples of my projects are
+                below and further details are on my Github Profile.
               </Row>
             </Container>
           </div>
@@ -241,11 +152,5 @@ class Experience extends React.Component {
 const text = {
   padding: "10px",
 };
-const companylogo = {
-  height: "auto",
-  width: "90px",
-  marginTop: "10px",
-  marginLeft: "15px",
-  boxShadow: "2px 2px 3px 1px black",
-};
+
 export default Experience;
