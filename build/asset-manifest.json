@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.23d186b2.chunk.css",
+    "main.js": "/static/js/main.d2c68c4d.chunk.js",
+    "main.js.map": "/static/js/main.d2c68c4d.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.47113695.js",
+    "runtime-main.js.map": "/static/js/runtime-main.47113695.js.map",
+    "static/css/2.fca80f08.chunk.css": "/static/css/2.fca80f08.chunk.css",
+    "static/js/2.49ac5327.chunk.js": "/static/js/2.49ac5327.chunk.js",
+    "static/js/2.49ac5327.chunk.js.map": "/static/js/2.49ac5327.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.fca80f08.chunk.css.map": "/static/css/2.fca80f08.chunk.css.map",
+    "static/css/main.23d186b2.chunk.css.map": "/static/css/main.23d186b2.chunk.css.map",
+    "static/js/2.49ac5327.chunk.js.LICENSE.txt": "/static/js/2.49ac5327.chunk.js.LICENSE.txt",
+    "static/media/approval.17bb4fee.png": "/static/media/approval.17bb4fee.png",
+    "static/media/desksetup-2022.6dd58549.png": "/static/media/desksetup-2022.6dd58549.png",
+    "static/media/experience.0f20c2d6.png": "/static/media/experience.0f20c2d6.png",
+    "static/media/facebook.795fce8e.png": "/static/media/facebook.795fce8e.png",
+    "static/media/font-awesome.min.css": "/static/media/fontawesome-webfont.f691f37e.woff",
+    "static/media/github.ce02960d.png": "/static/media/github.ce02960d.png",
+    "static/media/linkedin.f249b382.png": "/static/media/linkedin.f249b382.png",
+    "static/media/marketing-screenshot-1.png": "/static/media/marketing-screenshot-1.6fbad705.png",
+    "static/media/profileImage Medium.a6cc2324.png": "/static/media/profileImage Medium.a6cc2324.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.47113695.js",
+    "static/css/2.fca80f08.chunk.css",
+    "static/js/2.49ac5327.chunk.js",
+    "static/css/main.23d186b2.chunk.css",
+    "static/js/main.d2c68c4d.chunk.js"
+  ]
+}
