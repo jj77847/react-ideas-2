@@ -17,7 +17,7 @@ class Project extends React.Component {
                 marginTop: "10px",
                 // marginLeft: "7vw",
                 fontFamily: "Sans-serif",
-                backgroundColor: "rgb(102, 0, 102)",
+                backgroundColor: "white",
                 borderRadius: "10px",
                 width: "max-Content",
               }}
@@ -27,7 +27,7 @@ class Project extends React.Component {
                   textShadow: "4px 4px 4px grey",
                   fontSize: "6vw",
                   fontWeight: "bolder",
-                  color: "white",
+                  color: "black",
                   padding: "1vw",
                 }}
               >
