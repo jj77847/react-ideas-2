@@ -1,6 +1,5 @@
 import React from "react";
 import "../styles.css";
-import placeHolderImg from "../images/place-holder-img.png";
 import { Col, Container, Row, Image } from "react-bootstrap";
 import Experiences from "../images/experience.png";
 class Experience extends React.Component {
