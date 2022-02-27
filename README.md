@@ -25,9 +25,9 @@ React Portfolio made in various dependencies with simple layout.
 
 ### Deployed Application
 
-[Deployed Link](https://jj77847.github.io/react-ideas-2/))
+[Github](https://github.com/jj77847/react-ideas-2/))
 
-[Github](https://jj77847.github.io/react-ideas-2/))
+[Deployed Link](https://jj77847.github.io/react-ideas-2/))
 
 ## License
 
